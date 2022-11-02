@@ -1,0 +1,34 @@
+{
+  "name": "dulceonline",
+  "version": "1.0.0",
+  "description": "Proyecto para la venta de dulces",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/santorio01/midulceonline.git"
+  },
+  "keywords": [
+    "ventas",
+    "dulces",
+    "carrito",
+    "snakcs"
+  ],
+  "author": "Jeferson Asdrual  Sepulveda Cardenas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/santorio01/midulceonline/issues"
+  },
+  "homepage": "https://gitlab.com/santorio01/midulceonline#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
